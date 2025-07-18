@@ -70,6 +70,10 @@ async function checkWeather(city) {
             document.querySelector(".weather-icon").innerHTML = `<img src="assets/drizzle.png" alt="weather icon" class="weather-iconn">`
             console.log("mama g same hai brooo")
         }
+                else if (data.current.condition.code === 1240) {
+            document.querySelector(".weather-icon").innerHTML = `<img src="assets/drizzle.png" alt="weather icon" class="weather-iconn">`
+            console.log("mama g same hai brooo")
+        }       
 
 
         else {
